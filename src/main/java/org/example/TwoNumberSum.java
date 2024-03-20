@@ -59,5 +59,4 @@ public class TwoNumberSum {
         System.out.println(a);
     }
 
-
 }
