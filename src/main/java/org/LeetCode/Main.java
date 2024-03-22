@@ -1,4 +1,4 @@
-package org.example;
+package org.LeetCode;
 
 /**
  * @author: 蛋宝

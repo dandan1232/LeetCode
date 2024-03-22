@@ -1,4 +1,4 @@
-package org.example;
+package org.LeetCode;
 
 
 import java.util.Arrays;
@@ -36,7 +36,7 @@ import java.util.Arrays;
  * <p>
  * 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
  */
-public class TwoNumberSum {
+public class TwoNumberSum1 {
 
 
     public static int[] twosum(int[] nums, int target) {
