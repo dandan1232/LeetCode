@@ -26,25 +26,35 @@ public class RemoveElement27 {
 //
 //    }
 
-        int count = 0;
-        int temp = 0;
+//        int count = 0;
+//        int temp = 0;
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = nums.length-1; j >= 0; j--) {
+//                if (i<=j) {
+//                    if (nums[i] == val && nums[j] != val) {
+//                        temp = nums[j];
+//                        nums[j] = nums[i];
+//                        nums[i] = temp;
+//                    }
+//                }
+//            }
+//            if (nums[i] == val) {
+//                count++;
+//            }
+//        }
+//
+//        System.out.println(Arrays.toString(nums));
+//        return nums.length-count++;
+//    }
+        int index=0;
         for (int i = 0; i < nums.length; i++) {
-            for (int j = nums.length-1; j >= 0; j--) {
-                if (i<=j) {
-                    if (nums[i] == val && nums[j] != val) {
-                        temp = nums[j];
-                        nums[j] = nums[i];
-                        nums[i] = temp;
-                    }
-                }
-            }
-            if (nums[i] == val) {
-                count++;
+            if(nums[i]!=val){
+                nums[index++]=nums[i];
             }
         }
 
         System.out.println(Arrays.toString(nums));
-        return nums.length-count++;
+        return index;
     }
 
     public static void main(String[] args) {
