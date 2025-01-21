@@ -17,8 +17,10 @@ import java.util.Arrays;
  * 输出: [0]
  */
 public class MoveZeros283 {
-    int count=0;
+    int count = 0;
+
     public void moveZeroes(int[] nums) {
+        //法一：双指针，交换0和其他的位置
         int index=0; //0的位置
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
@@ -29,6 +31,14 @@ public class MoveZeros283 {
         for (int i=index;i<nums.length;i++){
             nums[i]=0;
         }
+        //法二：遇到0删除，并且在数组后面加0
+//        List<String> nums = new ArrayList<>();
+//        for (int i = 0; i < nums.length; i++) {
+//            if (nums[i] == 0) {
+//                nums.remove(0);
+//                nums.add(0);
+//            }
+//        }
 
     }
 
