@@ -1,7 +1,5 @@
 package org.LeetCode;
 
-import java.util.List;
-
 /**
  * @author: 念安
  * @date: 2025-01-31 14:05
@@ -102,7 +100,7 @@ public class ReverseNodesInKGroup {
 }*/
 
 
-public class ReverseNodesInKGroup {
+public class ReverseNodesInKGroup25 {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null) {
             return head;
@@ -144,7 +142,7 @@ public class ReverseNodesInKGroup {
     }
 
     public static void main(String args[]) {
-        ReverseNodesInKGroup reverseNodesInKGroup = new ReverseNodesInKGroup();
+        ReverseNodesInKGroup25 reverseNodesInKGroup = new ReverseNodesInKGroup25();
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
