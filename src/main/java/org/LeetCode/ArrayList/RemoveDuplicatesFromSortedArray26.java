@@ -1,4 +1,4 @@
-package org.LeetCode;
+package org.LeetCode.ArrayList;
 
 /**
  * @author: 念安

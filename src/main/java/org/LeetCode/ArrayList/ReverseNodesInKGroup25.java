@@ -1,5 +1,6 @@
-package org.LeetCode;
+package org.LeetCode.ArrayList;
 
+import org.LeetCode.ArrayList.ListNode;
 /**
  * @author: 念安
  * @date: 2025-01-31 14:05

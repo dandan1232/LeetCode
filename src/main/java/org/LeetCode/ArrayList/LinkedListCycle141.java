@@ -1,8 +1,6 @@
-package org.LeetCode;
+package org.LeetCode.ArrayList;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import org.LeetCode.ArrayList.ListNode;
 
 /**
  * @author: 念安
